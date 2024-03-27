@@ -1,0 +1,14 @@
+@model azure_key_vault.Models.AppConfig
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AppConfig Value</title>
+</head>
+<body>
+    <h1>Value from Azure Key Vault:</h1>
+    <p>Connection String: @Model.my_random_db_connection_string</p>
+    <p>Username: @Model.my_random_third_party_usernmae</p>
+    <p>Password: @Model.my_random_third_party_password</p>
+</body>
+</html>
